@@ -1,0 +1,5 @@
+docx2txt
+gradio
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-huggingface
