@@ -3,3 +3,4 @@ gradio
 llama-index
 llama-index-embeddings-huggingface
 llama-index-llms-huggingface
+torch
