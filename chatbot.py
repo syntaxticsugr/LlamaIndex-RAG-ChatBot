@@ -5,15 +5,15 @@ from chatbot_utils import *
 
 def app():
 
-    with gr.Blocks(title="ChatBot") as app:
+    with gr.Blocks(title="RAGbot") as app:
 
         vec_db = gr.State()
         query_engine = gr.State()
 
         gr.HTML("""
             <div style="text-align: center">
-                <h1>ChatBot: LlamaIndex RAG Demo</h1>
-                <h2>ChatBot is a simple utility to perform Retrieval Augmented Generation (RAG) on your documents.<h3>
+                <h1>RAGbot: LlamaIndex RAG ChatBot</h1>
+                <h2>RAGbot is a simple utility to perform RAG (Retrieval Augmented Generation) on your documents.<h3>
             </div>
         """)
 
